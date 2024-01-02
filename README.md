@@ -5,18 +5,15 @@ Performing analysis on Kickstarter data to uncover trends
 
 
 ### Purpose
-For the first deliverable, we were asked to create a graphical representation of the campaign outcomes based on the launch date. In order to do this, we first needed to use the YEAR() function to obtain the year from each datapoint and then we created a PivotTable to count all of the different outcomes (for Theaters only). From there, we just created a line chart and added a chart header to it. 
+Creating graphical representations of campaign outcomes based on the launch date. In order to do this, used the YEAR() function to obtain the year from each data point and then created a PivotTable to count all of the different outcomes (for Theaters only). From there, created a line chart with header. 
 
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Date
-For the first deliverable, we were asked to create a graphical representation of the campaign outcomes based on the launch date. In order to do this, we first needed to use the YEAR() function to obtain the year from each datapoint and then we created a PivotTable to count all of the different outcomes (for Theaters only). From there, we just created a line chart and added a chart header to it. 
+Used the the YEAR() function to obtain the year from each data point and then created a PivotTable to count all of the different outcomes (for Theaters only). From there, we just created a line chart with header.
 
 ### Analysis of Outcomes Based on Goals
-For the second deliverable, we were asked to create a graphical representation of the campaign outcomes based on the goal. In order to do this, we needed to use the COUNTIFS() function which essentially filters through a data set by the columns you enter in the function. Using this function, we created a table based on the different outcomes (successful, failed, canceled) and by different ranges (for the goal amount). 
-
-### Challenges and Difficulties Encountered
-I did not have many problems with this challenge but I did struggle a little bit on the second deliverable. For some reason my chart was looking a little bit off but then I reread the deliverable instructions and found out that my ranges were off a little and I was using the entire dataset and not filtering by “plays”. I reread the instructions and went through the functions in the cells to make sure I had done everything correctly; I retraced my steps and double checked my work. 
+Used the COUNTIFS() function which essentially filters through a data set by the columns you enter in the function. Using this function, I created a table based on the different outcomes (successful, failed, canceled) and by different ranges (for the goal amount). 
 
 ## Results
 
